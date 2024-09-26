@@ -1,0 +1,141 @@
+body {
+  background-color: purple;
+  color:grey;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  background-color: orchid;
+  padding: 20px;
+  text-align: center;
+  font-family:fantasy;
+}
+
+header h1 {
+  color: purple;
+  font-size: 40px;
+  font-style: oblique;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+header nav ul li {
+  margin: 15px;
+}
+
+header nav ul li a {
+  text-decoration:underline;
+  color: black;
+  font-size: 18px;
+}
+
+header nav ul li a:hover {
+  color: purple;
+}
+
+#about {
+  background-color: lightpink;
+  padding: 50px;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 28px;
+  color: purple;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 18px;
+  color: navy;
+  max-width: 600px;
+  margin: auto;
+}
+
+#flavors {
+  background-color: beige;
+  padding: 50px;
+  text-align: center;
+}
+
+#flavors h2 {
+  font-size: 28px;
+  color: purple;
+  margin-bottom: 30px;
+}
+
+.flavor-list {
+  display:flex;
+  justify-content:center;
+  flex-direction:row;
+}
+
+.flavor-card {
+  background-color: orchid;
+  border: 1px solid purple;
+  padding: 20px;
+  width: 35%;
+  margin: 15px;
+  box-shadow: 0 4px 8px grey (0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.flavor-card:hover {
+  transform: scale(1.05);
+}
+
+.flavor-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.flavor-card h3 {
+  margin-top: 15px;
+  font-size: 22px;
+  color: purple;
+}
+
+.flavor-card p {
+  font-size: 16px;
+  color: black;
+  margin-top: 10px;
+}
+
+#contact {
+  background-color: lightpink;
+  padding: 50px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 28px;
+  color: purple;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 18px;
+  color: navy;
+}
+
+footer {
+  background-color: orchid;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  color: black;
+  font-size: 16px;
+}
